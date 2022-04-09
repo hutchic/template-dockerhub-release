@@ -8,6 +8,10 @@
     - pre-commit
     - valid pr titles
     - sync
+    - create release
 - set github secrets for actions and dependabot
     - AUTO_MERGE_TOKEN
     - GH_TOKEN
+    - DOCKER_USERNAME
+    - DOCKER_TOKEN
+- create a dockerhub repository with the same org/repository as the github repo
